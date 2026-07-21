@@ -14,5 +14,5 @@
 
 ## Lenguajes de Uso
 
-- Haskel -> Funcional
+- Haskell -> Funcional
 - Prolog -> Programacion logica
