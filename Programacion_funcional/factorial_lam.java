@@ -1,5 +1,5 @@
 public class factorial_lam{
-    public static void main(string[] arg){
+    public static void main(String[] arg){
 
     }
 }
