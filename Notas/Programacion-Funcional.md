@@ -1,7 +1,5 @@
 # Programacion Funcional
 
-## Calculo lambda
-
 ## Interfaz funcional
 Interfaz: Metodos abstractos (Framework)
 
@@ -37,10 +35,13 @@ suma(){
 suma();
 ```
 
-## Funciones Lambda (SAM, Single Abstract Method)
+
+## Calculo lambda
+
+### Funciones Lambda (SAM, Single Abstract Method)
 Es en esencia una funcion anonima que implementa un metodo definido en una interfaz funcional.
 
-### Exprecion Lambda
+#### Exprecion Lambda
 
 ```Java
 () -> 144.0
