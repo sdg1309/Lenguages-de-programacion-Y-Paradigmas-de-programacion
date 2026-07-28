@@ -13,7 +13,7 @@ La interfaz funiconal define el tipo de destino de una exprecion lambda.
 
 Una interfaz funcional solo tiene un metodo abstracto.
 
-## Interfaz funcional Generica
+## Algunas Interfazes funcionales Genericas
 
 | Interfaz | Descripción |
 |---|---|

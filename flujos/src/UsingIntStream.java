@@ -1,7 +1,8 @@
 import java.util.Arrays;
-import java.util.stream.Collectors;
+// import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
+// Interfaz Funcional con un metodo abstracto que recibe un vector de ints
 interface suma {
     int sum(int x[]);
 }

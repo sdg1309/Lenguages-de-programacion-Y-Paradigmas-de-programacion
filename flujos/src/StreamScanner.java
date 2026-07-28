@@ -10,6 +10,7 @@ public class StreamScanner {
             int[] indices = Arrays.stream(new Scanner(System.in).nextLine().split(" ")).mapToInt(Integer::parseInt).toArray();
             System.out.println(fuente[indices[0]] + fuente[indices[1]]);
         }
+        sc.close();
     }
 }
 /*Sum of indexed values
