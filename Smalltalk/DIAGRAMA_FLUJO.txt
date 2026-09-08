@@ -1,0 +1,202 @@
+╔════════════════════════════════════════════════════════════════════════════════╗
+║          🚀 SMALLTALK EN CODESPACES - FLUJO DE APRENDIZAJE                    ║
+╚════════════════════════════════════════════════════════════════════════════════╝
+
+                              ¿DÓNDE EMPEZAR?
+                                    │
+                 ┌──────────────────┼──────────────────┐
+                 │                  │                  │
+         🟢 RÁPIDO (5min)  🟡 NORMAL (2h)  🔴 COMPLETO (3h)
+                 │                  │                  │
+                 ▼                  ▼                  ▼
+          TinyImageII      GNU Smalltalk        Todo incluido
+         (Sin instalar)    (Instalar 5min)      (Conocimiento)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🟢 RUTA RÁPIDA (SIN INSTALAR)
+────────────────────────────────
+
+  1. Abre navegador
+         │
+         ▼
+  2. http://tinyimage.org
+         │
+         ▼
+  3. Escribe código Smalltalk
+         │
+         ▼
+  4. Ctrl+D para ejecutar
+         │
+         ▼
+  5. Verifica resultado
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🟡 RUTA NORMAL (GNU Smalltalk)
+─────────────────────────────────
+
+  [INICIO_RAPIDO_CODESPACES.md]
+         │
+         ▼ Lee
+  [bash install-smalltalk.sh] ──── 5 minutos ────┐
+         │                                        │
+         ▼                                        ▼
+  Smalltalk instalado ◄─────────────────────────┘
+         │
+         ├─────────────────────┐
+         │                     │
+         ▼                     ▼
+  [ejemplos_basicos.st]   [Smalltalk.md]
+  gst ejemplos_basicos.st   ↑ Lee para aprender
+         │                  │
+         ▼                  │
+  ¡Funciona!               │
+         │ ◄────────────────┘
+         │
+         ▼
+  [REFERENCIA_RAPIDA.md] ← Consulta mientras codificas
+         │
+         ▼
+  Crea tu propio programa
+         │
+         ▼
+  gst tu_programa.st
+         │
+         ▼
+  ¡Éxito!
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🔴 RUTA COMPLETA (MÁXIMA COMPRENSIÓN)
+──────────────────────────────────────
+
+  START
+    │
+    ▼
+  [INDEX.md] ◄────────── Resumen general
+    │
+    ▼
+  [README_ES.md] ◄──── Índice de rutas
+    │
+    ▼
+  [INICIO_RAPIDO_CODESPACES.md] ◄── Tu entorno
+    │
+    ▼
+  Elige: TinyImageII o GNU Smalltalk
+    │         │
+    │    [bash install-smalltalk.sh]
+    │         │
+    └────────▼
+      [Smalltalk.md] ◄─── Teoría completa
+           │
+           ├─ Conceptos 1-5 (Básico)
+           ├─ Conceptos 6-8 (Intermedio)
+           │
+           ▼
+      [ejemplos_basicos.st] ◄─── Práctica básica
+           │
+           ├─ Ejemplos 1-8 (Fácil)
+           ├─ Ejemplos 9-15 (Medio)
+           │
+           ▼
+      [REFERENCIA_RAPIDA.md] ◄─── Consulta rápida
+           │ (Abierto en otra ventana)
+           │
+           ▼
+      [ejemplos_oop.st] ◄──── Concepto OOP
+           │
+           ├─ Animal & Perro/Gato (Herencia)
+           ├─ CuentaBancaria (Encapsulación)
+           ├─ Estudiante (Atributos+Métodos)
+           │
+           ▼
+      Crea tu propio proyecto
+           │
+           ├─ Archivo: mi_proyecto.st
+           ├─ Define tu clase
+           ├─ Implementa métodos
+           ├─ Prueba el código
+           │
+           ▼
+      [INSTALACION_Y_CONFIGURACION.md] ◄─── Referencia avanzada
+           │
+           ▼
+      ¡DOMINAS SMALLTALK!
+
+═══════════════════════════════════════════════════════════════════════════════
+
+📊 TIEMPO ESTIMADO POR RUTA
+──────────────────────────────
+
+  Ruta Rápida (TinyImageII):
+  ├─ Leer guía:        5 minutos
+  ├─ Abrir web:        2 minutos
+  ├─ Experimentar:    20 minutos
+  └─ TOTAL:          ~30 minutos
+
+  Ruta Normal (GNU Smalltalk):
+  ├─ Leer inicio:      5 minutos
+  ├─ Instalar:         5 minutos
+  ├─ Leer teoría:     20 minutos
+  ├─ Hacer ejemplos:  45 minutos
+  └─ TOTAL:          ~75 minutos
+
+  Ruta Completa (Dominar):
+  ├─ Leer teoría:     30 minutos
+  ├─ Instalar:         5 minutos
+  ├─ Hacer ejemplos:  60 minutos
+  ├─ Leer referencia: 15 minutos
+  ├─ Crear proyecto:  30 minutos
+  └─ TOTAL:         ~140 minutos (2.5h)
+
+═══════════════════════════════════════════════════════════════════════════════
+
+🎯 CÓMO USAR ESTA DOCUMENTACIÓN
+────────────────────────────────────
+
+  Una ventana: Lee + Ejecuta
+  ├─ [INICIO_RAPIDO_CODESPACES.md] en Editor
+  └─ Terminal con: gst, bash install-smalltalk.sh
+
+  Dos ventanas: Lee + Consulta + Ejecuta
+  ├─ Izquierda: Documento que lees
+  ├─ Centro: [REFERENCIA_RAPIDA.md] con Ctrl+F
+  └─ Derecha: Terminal o TinyImageII
+
+  Tres ventanas: Máxima productividad
+  ├─ Izquierda: [Smalltalk.md] (teoría)
+  ├─ Centro: Tu código (.st file)
+  └─ Derecha: Terminal + [REFERENCIA_RAPIDA.md]
+
+═══════════════════════════════════════════════════════════════════════════════
+
+✅ CHECKLIST DE PROGRESO
+─────────────────────────
+
+  Básico:
+  ├─ [ ] Abrí INICIO_RAPIDO_CODESPACES.md
+  ├─ [ ] Ejecuté mi primer "Hola Mundo"
+  └─ [ ] Entiendo qué es Smalltalk
+
+  Intermedio:
+  ├─ [ ] Leí Smalltalk.md
+  ├─ [ ] Ejecuté ejemplos_basicos.st
+  └─ [ ] Consulté REFERENCIA_RAPIDA.md
+
+  Avanzado:
+  ├─ [ ] Ejecuté ejemplos_oop.st
+  ├─ [ ] Creé mi primer clase
+  └─ [ ] Hice mi propio programa
+
+═══════════════════════════════════════════════════════════════════════════════
+
+👉 SIGUIENTE PASO:
+
+   Abre: INICIO_RAPIDO_CODESPACES.md
+   Elige: Opción A (2 min) u Opción B (5 min)
+   ¡Empieza!
+
+╔════════════════════════════════════════════════════════════════════════════════╗
+║                        ¡BIENVENIDO A SMALLTALK! 🚀                            ║
+╚════════════════════════════════════════════════════════════════════════════════╝

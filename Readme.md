@@ -16,3 +16,4 @@
 
 - Haskell -> Funcional
 - Prolog -> Programacion logica
+- Smalltalk -> POO
